@@ -1,0 +1,21 @@
+{
+    "name": "ck99/heroku-bundle",
+    "description": "Helping Symfony live happily ever after on Heroku",
+    "authors": [
+        {
+            "name": "Ciaran Kelly",
+            "email": "ciaran.kelly@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": { "Ck99\\HerokuBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
